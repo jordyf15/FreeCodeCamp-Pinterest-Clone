@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.my-masonry-grid {
+  display: -webkit-box; 
+  display: -ms-flexbox; 
+  display: flex;
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 15px; 
+  background-clip: padding-box;
+}
+ 
